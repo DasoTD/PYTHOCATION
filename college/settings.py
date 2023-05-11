@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'courses.apps.CoursesConfig',
     'students.apps.StudentsConfig',
     'embed_video',
-    'rest_framework'
+    'rest_framework',
+    'chat.apps.ChatConfig',
 ]
 
 REST_FRAMEWORK = {
